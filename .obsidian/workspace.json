@@ -11,17 +11,28 @@
             "id": "95989fd45c6a59fe",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
-                "bFile": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
-                "aRef": ""
+                "file": "Notes on Systems/🎤 RAP notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: manifest.json"
+              "icon": "lucide-file",
+              "title": "🎤 RAP notes"
+            }
+          },
+          {
+            "id": "d691e2298f189619",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,27 +178,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "95989fd45c6a59fe",
+  "active": "d691e2298f189619",
   "lastOpenFiles": [
-    "Dailies/📆 Daily Master.md",
-    "Dailies/2025-01-28.md",
     "Notes on Systems/🎤 RAP notes.md",
+    "Excalidraw/🎤 Rap Life Cycle Overview.md",
+    "Excalidraw",
+    "Dailies/2025-01-27.md",
+    "Dailies/2025-01-28.md",
+    "CI -CD/🚀 Changes to Release.md",
+    "CI -CD/🍬 Testing Suite.md",
+    "Dailies/📆 Daily Master.md",
     "Dailies/2025-01-17.md",
     "Notes on Systems/🚀 Release Process SoTA.md",
     "Dailies/2025-01-15.md",
-    "Dailies/2025-01-27.md",
     "CI -CD/💉 Clazz and Dependency Injection.md",
     "CI -CD/🔑 User Auth.md",
-    "CI -CD/🍬 Testing Suite.md",
     "CI -CD/🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok.md",
     "CI -CD/👕Linter.md",
     "CI -CD/💡Ideas for CI - CD.md",
     "CI -CD/❌ Error-Handling.md",
     "CI -CD/🔥 Dependency Hell.md",
-    "CI -CD/🚀 Changes to Release.md",
     "Templates/Daily Quote.md",
     "Templates",
     "CI -CD",
