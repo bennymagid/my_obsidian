@@ -5,3 +5,4 @@ When running the `run` shell script for a given service, we have to switch users
 
 To fix: change the log file for each service (in every environment) to be owned by and in the group of `ubuntu` - then we won't have to run commands as `root` anymore
 `chown -R ubuntu:ubuntu logs/crud_service.log` 
+For now, instead we opted only to `sudo` for the restart command itself - can write some shortcuts in `.bashrc`, but I had an issue with this being run from the root directory
