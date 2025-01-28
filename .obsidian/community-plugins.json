@@ -1,7 +1,7 @@
 [
   "dataview",
   "emoji-shortcodes",
-  "obsidian-icon-folder",
   "url-into-selection",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]

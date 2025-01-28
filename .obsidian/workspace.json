@@ -11,14 +11,14 @@
             "id": "95989fd45c6a59fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Dailies/2025-01-17.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+                "bFile": ".obsidian/plugins/obsidian-icon-folder/manifest.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2025-01-17"
+              "icon": "diff",
+              "title": "Diff: manifest.json"
             }
           }
         ]
@@ -93,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dailies/2025-01-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-17"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dailies/2025-01-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-17"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,19 +136,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Dailies/2025-01-17.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-17"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "71647212bb12e380",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,17 +166,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "95989fd45c6a59fe",
   "lastOpenFiles": [
-    "Notes on Systems/🚀 Release Process SoTA.md",
+    "Dailies/📆 Daily Master.md",
+    "Dailies/2025-01-28.md",
     "Notes on Systems/🎤 RAP notes.md",
-    "Dailies/📆 Daily Notes List.md",
+    "Dailies/2025-01-17.md",
+    "Notes on Systems/🚀 Release Process SoTA.md",
     "Dailies/2025-01-15.md",
     "Dailies/2025-01-27.md",
-    "Dailies/2025-01-28.md",
     "CI -CD/💉 Clazz and Dependency Injection.md",
     "CI -CD/🔑 User Auth.md",
     "CI -CD/🍬 Testing Suite.md",
