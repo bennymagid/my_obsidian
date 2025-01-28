@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-28.md",
+                "file": "Dailies/2025-01-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-28"
+              "title": "2025-01-17"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-01-28.md",
+                "file": "Dailies/2025-01-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-28"
+              "title": "Backlinks for 2025-01-17"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-01-28.md",
+                "file": "Dailies/2025-01-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-28"
+              "title": "Outgoing links from 2025-01-17"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-01-28.md"
+                "file": "Dailies/2025-01-17.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-28"
+              "title": "Outline of 2025-01-17"
             }
           }
         ]
@@ -165,7 +165,12 @@
   },
   "active": "95989fd45c6a59fe",
   "lastOpenFiles": [
-    "2025-01-28.md",
+    "Notes on Systems/🚀 Release Process SoTA.md",
+    "Notes on Systems/🎤 RAP notes.md",
+    "Dailies/📆 Daily Notes List.md",
+    "Dailies/2025-01-15.md",
+    "Dailies/2025-01-27.md",
+    "Dailies/2025-01-28.md",
     "CI -CD/💉 Clazz and Dependency Injection.md",
     "CI -CD/🔑 User Auth.md",
     "CI -CD/🍬 Testing Suite.md",
@@ -176,11 +181,8 @@
     "CI -CD/🔥 Dependency Hell.md",
     "CI -CD/🚀 Changes to Release.md",
     "Templates/Daily Quote.md",
-    "Dailies/Daily Notes List.md",
     "Templates",
     "CI -CD",
-    "Notes on Systems/RAP notes.md",
-    "Dailies/2025-01-27.md",
     "Notes on Systems",
     "Dailies"
   ]
