@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dailies/2025-01-28.md",
+                "file": "Dailies/2025-01-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-28"
+              "title": "2025-01-29"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dailies/2025-01-28.md",
+                "file": "Dailies/2025-01-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-28"
+              "title": "Backlinks for 2025-01-29"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dailies/2025-01-28.md",
+                "file": "Dailies/2025-01-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-28"
+              "title": "Outgoing links from 2025-01-29"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dailies/2025-01-28.md"
+                "file": "Dailies/2025-01-29.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-28"
+              "title": "Outline of 2025-01-29"
             }
           },
           {
@@ -192,19 +192,23 @@
   },
   "active": "d691e2298f189619",
   "lastOpenFiles": [
-    "Dailies/2025-01-27.md",
     "Dailies/2025-01-28.md",
+    "Dailies/2025-01-29.md",
+    "Templates/Display Template Notes.md",
+    "Templates/Display Daily Notes.md",
+    "Dailies/📆 Daily Master.md",
+    "Dailies/2025-01-27.md",
+    "CI -CD/💡Ideas for CI - CD.md",
+    "Excalidraw/🎤 Rap Life Cycle Overview.md",
     "Untitled.canvas",
     "images/image.png",
     "images",
     "images/image (1).png",
     "images/Screenshot 2025-01-23 at 11.36.05 AM.png",
-    "Excalidraw/🎤 Rap Life Cycle Overview.md",
     "Notes on Systems/🎤 RAP notes.md",
     "Excalidraw",
     "CI -CD/🚀 Changes to Release.md",
     "CI -CD/🍬 Testing Suite.md",
-    "Dailies/📆 Daily Master.md",
     "Dailies/2025-01-17.md",
     "Notes on Systems/🚀 Release Process SoTA.md",
     "Dailies/2025-01-15.md",
@@ -212,7 +216,6 @@
     "CI -CD/🔑 User Auth.md",
     "CI -CD/🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok.md",
     "CI -CD/👕Linter.md",
-    "CI -CD/💡Ideas for CI - CD.md",
     "CI -CD/❌ Error-Handling.md",
     "CI -CD/🔥 Dependency Hell.md",
     "Templates/Daily Quote.md",
