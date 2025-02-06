@@ -9,6 +9,7 @@
 - [ ] Clearer backend organization [[💉 Clazz and Dependency Injection]]
 - [ ] Versioning and Updates to Release [[🚀 Changes to Release]]
 	- [ ] [[🔥 Dependency Hell]]
+- [ ] [[🗿 Load Balancer]]
 
 
 
