@@ -1,3 +1,3 @@
-We use Prisma as our ORM but we manually double this in Spring. Would be nice to have these two line up automatically with one source of truth like Prisma
+We use Prisma as our ORM but we manually double this in Spring. Would be nice to have these two line up automatically with one source of truth like Prisma. 
 
 Spring repositories that load into something like `PolicySummary`, need a new constructor to line up with each addition to their columns because of some weird JKA setup. Should have some way to automatically `SELECT` columns from the class name itself

@@ -1,7 +1,5 @@
 My favorite combination is
 
-also unused imports!(!!)
-
 - [google-java-format](https://github.com/google/google-java-format) for auto-formatting (prevent bikeshedding about indentation and the like)
 	- Installed in Intellij
 	- Enabled manually in settings
@@ -9,7 +7,7 @@ also unused imports!(!!)
 	- Reformat on save
 	- Added dependency to Maven
 	- Added to Maven to check on commit
-- [checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html) with google-java-format rules
+- [checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html) with google-java-format rules (this is also where we could specify unused imports)
 - [errorprone](https://errorprone.info/) (prevent common, careless mistakes)
 - [NullAway](https://github.com/uber/NullAway) (prevent NullPointerExceptions)
 - [infer](https://fbinfer.com/) (optionally) to be really safe :)

@@ -1,4 +1,5 @@
 {
-  "cssTheme": "Sanctum",
-  "translucency": false
+  "cssTheme": "Shimmering Focus",
+  "translucency": false,
+  "nativeMenus": true
 }
