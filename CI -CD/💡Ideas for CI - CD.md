@@ -1,5 +1,5 @@
 - [ ] PostMan Testing Suite [[🍬 Testing Suite]]
-- [ ] Linter(!) [[👕Linter]]
+- [ ] Linter(!) [[👕 Linter]]
 - [ ] User Auth [[🔑 User Auth]]
 - [ ] Lombok [[🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok]]
 - [ ] Error handling should be consolidated [[❌ Error-Handling]]
@@ -10,6 +10,7 @@
 - [ ] Versioning and Updates to Release [[🚀 Changes to Release]]
 	- [ ] [[🔥 Dependency Hell]]
 - [ ] [[🗿 Load Balancer]]
+- [ ] [[🛡️ Security]]
 
 
 

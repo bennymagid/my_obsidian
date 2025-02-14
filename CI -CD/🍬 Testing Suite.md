@@ -2,7 +2,7 @@
 		1. Also clean up PostMan
 			1. Should use environments (UAT, etc.) instead of the same PostMan outlines
 	1. CodeCov - unit and integration testing
-	2. In application.properties, can set which packages are used on deploy (not use `close` for example)
+	2. In `application.properties`, can set which packages are used on deploy (not use `close` for example)
 
 
 
