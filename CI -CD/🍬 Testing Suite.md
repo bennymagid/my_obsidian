@@ -9,3 +9,5 @@
 Rest Assured seems like the best tools for integration testing APIs
 https://github.com/rest-assured/rest-assured
 https://github.com/rest-assured/rest-assured/wiki/Spring
+
+Would love to have testing included in the [[🚀 Changes to Release]]

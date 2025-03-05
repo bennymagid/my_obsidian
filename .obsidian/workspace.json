@@ -67,18 +67,56 @@
             "id": "f5a50b0032bc1ccf",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "cbd9a685686c602f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Dailies/📆 Daily Master.md",
+                "file": "CI -CD/🔥 Dependency Hell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📆 Daily Master"
+              "title": "🔥 Dependency Hell"
+            }
+          },
+          {
+            "id": "f2ac1556d58c9a0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CI -CD/🔑 User Auth.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🔑 User Auth"
+            }
+          },
+          {
+            "id": "2354a58522794e17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📚 Brag Book.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📚 Brag Book"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -105,24 +143,7 @@
             }
           },
           {
-            "id": "1a7110aac5cfbac7",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "acb151f62a4b4b4f",
+            "id": "f657a977936c05a4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -161,26 +182,20 @@
             }
           },
           {
-            "id": "ed03e713bf5486b7",
+            "id": "1a7110aac5cfbac7",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "search",
               "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "query": "prehand",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "f082c31a3d7706e2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -192,9 +207,42 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "f082c31a3d7706e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📚 Brag Book.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 📚 Brag Book"
+            }
+          },
+          {
+            "id": "fe0b67026b351969",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -204,46 +252,46 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": true
     }
   },
   "active": "71647212bb12e380",
   "lastOpenFiles": [
-    "CI -CD/💡Ideas for CI - CD.md",
-    "CI -CD/👕 Linter.md",
-    "CI -CD/🛡️ Security.md",
-    "📚 Brag Book.md",
-    "CI -CD/❌ Error-Handling.md",
-    "CI -CD/🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok.md",
+    "Dailies/2025-03-05.md",
+    "Notes on Systems/🤠 Local Frontend Testing procedure.md",
     "CI -CD/🔑 User Auth.md",
+    "CI -CD/Prehandle.md",
+    "CI -CD/Dependency Log.md",
+    "Dailies/2025-03-03.md",
     "CI -CD/🔥 Dependency Hell.md",
-    "CI -CD/🍬 Testing Suite.md",
-    "CI -CD/💉 Clazz and Dependency Injection.md",
-    "Dailies/2025-02-12.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "CI -CD/🗿 Load Balancer.md",
+    "📚 Brag Book.md",
     "Dailies/📆 Daily Master.md",
+    "Dailies/2025-02-27.md",
+    "Dailies/2025-01-17.md",
+    "Dailies/2025-02-26.md",
+    "Notes on Systems/🚀 Release Process SotA.md",
+    "Useful SQL Queries.md",
+    "Dailies/2025-02-24.md",
+    "Dailies/2025-02-21.md",
+    "CI -CD/💉 Clazz and Dependency Injection.md",
+    "CI -CD/🛡️ Security.md",
+    "CI -CD/💡Ideas for CI - CD.md",
+    "Dailies/2025-02-19.md",
+    "Notes on Systems/🎬 How to Onboard new AEs.md",
+    "Untitled.canvas",
+    "Notes on Systems/Untitled 1.canvas",
+    "CI -CD/🍬 Testing Suite.md",
+    "Dailies/2025-01-29.md",
+    "Dailies/2025-02-12.md",
     "Dailies/2025-02-11.md",
     "Dailies/2025-02-06.md",
-    "Dailies/2025-01-30.md",
-    "Dailies/2025-01-31.md",
-    "Dailies/2025-02-03.md",
-    "Dailies/2025-02-04.md",
-    "Dailies/2025-01-29.md",
     "Untitled 2.canvas",
-    "Excalidraw/🎤 Rap Life Cycle Overview.md",
-    "Notes on Systems/🎤 RAP notes.md",
-    "Dailies/2025-01-27.md",
-    "Dailies/2025-01-28.md",
-    "CI -CD/🚀 Changes to Release.md",
-    "Notes on Systems/🤠 Local Frontend Testing procedure.md",
     "images/image.png",
     "images",
     "images/image (1).png",

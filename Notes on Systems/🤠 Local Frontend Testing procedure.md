@@ -19,3 +19,23 @@ NEXT_PUBLIC_LAQ_SERVICE_URL=https://localhost:8088 #https://lb-lead-assignment-s
 ```
 
 Then run the local backend to test and then  `yarn local-backend` 
+
+Could figure out a way to automate this in our [[🍬 Testing Suite]]?
+
+
+**make sure to change the prod properties file if running PROD** 
+(this is copied from local properties)
+
+```
+server.port=8083  
+security.require-ssl=true  
+server.ssl.key-store-type=PKCS12  
+server.ssl.key-store=certificate_local.p12  
+server.ssl.key-store-password=Coverdash233%%$$##@@
+```
+
+
+To run frontend locally
+- Open `admin-dashboard` frontedn
+- run backend crud-service - there's a local cert that makes this work
+- run `yarn local-backend` (uses `.env.local.backend.`)

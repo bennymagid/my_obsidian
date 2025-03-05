@@ -1,4 +1,4 @@
-See [[🚀 Release Process SoTA]]
+See [[🚀 Release Process SotA]]
 There ought to be some GitLab Action that can automate the process
 
 Instead of making a Tag, can try to use [this](https://gitlab.com/gitlab-org/security-products/ci-templates/blob/d37268e/includes-dev/upsert-git-tag.yml)?
