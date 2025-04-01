@@ -23,14 +23,14 @@ Then run the local backend to test and then  `yarn local-backend`
 Could figure out a way to automate this in our [[🍬 Testing Suite]]?
 
 
-**make sure to change the prod properties file if running PROD** 
+**make sure to change the prod properties file if running PROD** (in crud)
 (this is copied from local properties)
 
 ```
-server.port=8083  
-security.require-ssl=true  
-server.ssl.key-store-type=PKCS12  
-server.ssl.key-store=certificate_local.p12  
+server.port=8083
+security.require-ssl=true
+server.ssl.key-store-type=PKCS12
+server.ssl.key-store=certificate_local.p12
 server.ssl.key-store-password=Coverdash233%%$$##@@
 ```
 

@@ -6,7 +6,45 @@ My favorite combination is
 	- Updated JRE Config
 	- Reformat on save
 	- Added dependency to Maven
+```
+<dependency>  
+    <groupId>com.google.googlejavaformat</groupId>  
+    <artifactId>google-java-format</artifactId>  
+    <version>1.25.2</version>  
+</dependency>
+```
+	
 	- Added to Maven to check on commit
+Run this once
+look at [this article](https://aru-sha4.medium.com/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)
+check here too for the [xml](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml)
+
+
+```
+<plugin>  
+    <groupId>com.theoryinpractise</groupId>  
+    <artifactId>googleformatter-maven-plugin</artifactId>  
+    <version>1.7.3</version>  
+    <executions>  
+        <execution>  
+            <id>reformat-sources</id>  
+            <configuration>  
+                <includeStale>false</includeStale>  
+                <style>GOOGLE</style>  
+                <!--                            <formatMain>true</formatMain>-->  
+                <!--                            <formatTest>true</formatTest>-->                <filterModified>false</filterModified>  
+                <skip>false</skip>  
+                <fixImports>false</fixImports>  
+                <maxLineLength>100</maxLineLength>  
+            </configuration>  
+            <goals>  
+                <goal>format</goal>  
+            </goals>  
+            <phase>process-sources</phase>  
+        </execution>  
+    </executions>  
+</plugin>
+```
 - [checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html) with google-java-format rules (this is also where we could specify unused imports)
 - [errorprone](https://errorprone.info/) (prevent common, careless mistakes)
 - [NullAway](https://github.com/uber/NullAway) (prevent NullPointerExceptions)

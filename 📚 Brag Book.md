@@ -9,9 +9,10 @@
 - Projects
 	- Led [major project](https://linear.app/coverdash/issue/WEB-2580/add-csv-importer-for-accounting) early on which involved design and has enabled faster Accountant turnaround and EOM
 	- Owned the changes for AE reorg - AEs for different campaigns, Core -> Growth Team transfers
+		- Warm Transfer Dashboard has helped see 2x warm transfers from Feb 2024 -> March 2025
 - Testing finally (at least some times) [[🍬 Testing Suite]]
 - [Documentation](https://www.notion.so/coverdash/How-to-fix-DB-access-issues-18c7c7fc5b0d80a69ca9ce5659dae973?pvs=4) for new hires(!)
-- Elected to lead best practices meetings
+- Elected to lead best practices meeting(s)
 	- March 11, 2025
 		- https://www.notion.so/coverdash/Dev-Den-Backend-Practices-Recap-1ac7c7fc5b0d8078a3dafd1f50cbcc25?pvs=4
 
