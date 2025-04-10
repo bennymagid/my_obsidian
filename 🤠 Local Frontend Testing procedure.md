@@ -36,6 +36,6 @@ server.ssl.key-store-password=Coverdash233%%$$##@@
 
 
 To run frontend locally
-- Open `admin-dashboard` frontedn
+- Open `admin-dashboard` frontend
 - run backend crud-service - there's a local cert that makes this work
 - run `yarn local-backend` (uses `.env.local.backend.`)
