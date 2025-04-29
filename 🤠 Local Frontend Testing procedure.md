@@ -27,6 +27,7 @@ Could figure out a way to automate this in our [[🍬 Testing Suite]]?
 (this is copied from local properties)
 
 ```
+%% CHANGE  %spring.datasource.hikari.maximum-pool-size=3%
 server.port=8083
 security.require-ssl=true
 server.ssl.key-store-type=PKCS12

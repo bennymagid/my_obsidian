@@ -15,8 +15,7 @@ My favorite combination is
 ```
 	
 	- Added to Maven to check on commit
-Run this once
-look at [this article](https://aru-sha4.medium.com/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)
+Run this once - look at [this article](https://aru-sha4.medium.com/java-check-style-and-formatting-using-maven-a1a1b4e6e10a)
 check here too for the [xml](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml)
 
 

@@ -32,8 +32,13 @@ To get the total revenue for a given agent for a certain time
 ```
 SELECT  
   b."soldBy",  
---   pt."transactionType",  
-  SUM(pt."amount") AS total_revenue  
+  SUM(  
+    CASE  
+      WHEN pt."direction" = 'RECEIVABLE' THEN pt."amount"  
+      WHEN pt."direction" = 'PAYABLE' THEN -pt."amount"  
+      ELSE 0  
+    END  
+  ) AS amount  
 FROM  
   "Business" b  
 JOIN  
@@ -47,6 +52,37 @@ WHERE
   AND p."createdAt" < '2025-05-01'  
   AND pt."transactionType" IN ('TECHNOLOGY_ACCESS_FEE', 'COMMISSION')  
 GROUP BY  
-  b."soldBy"  
---        , pt."transactionType";
+  b."soldBy";
+```
+
+To get approx and exact info on company revenue
+```
+SELECT  
+    DATE_TRUNC('month', p."createdAt") AS month,  
+    SUM(p.premium * p."commissionRate") AS rev,  
+    COUNT(DISTINCT p.id) AS accounts_sold  
+FROM  
+    "Policy" p  
+WHERE  
+    p."createdAt" >= NOW() - INTERVAL '12 months'  
+GROUP BY  
+    monthORDER BY  
+    month ASC;  
+  
+SELECT  
+    DATE_TRUNC('month', pt."createdAt") AS month,  
+    SUM(  
+    CASE  
+      WHEN pt."direction" = 'RECEIVABLE' THEN pt."amount"  
+      WHEN pt."direction" = 'PAYABLE' THEN -pt."amount"  
+      ELSE 0  
+    END  
+  ) AS amount  
+FROM  
+    "PolicyTransaction" pt  
+WHERE  
+    pt."createdAt" >= NOW() - INTERVAL '12 months'  
+GROUP BY  
+    monthORDER BY  
+    month;
 ```

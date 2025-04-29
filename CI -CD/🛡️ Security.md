@@ -12,6 +12,7 @@ We get the following warning on CRUD startup
 ```
 
 There is a branch to handle the above `crud-service/benny/security-tests`
+https://gitlab.com/coverdash/crud_service/-/merge_requests/310
 
 Our prod runners use `.properties` files which must be uploaded -in addition to the `.jar` - to our remote servers. 
 This means 
