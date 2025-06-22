@@ -1,4 +1,103 @@
+CYBER conversion rate 
+```
+SELECT DISTINCT pt.id                AS transaction_id,  
+                pt.amount            AS amount,  
+                pt.direction         AS direction,  
+                pt."createdAt"       AS transaction_created_at,  
+                pt."transactionType" AS transaction_type,  
+                pt."totalAmount"     AS total_amount,  
+                p.id                 AS policy_id,  
+                p."externalPolicyId" AS external_policy_id,  
+                p.premium            AS premium,  
+                p."carrierId"        AS carrier_id,  
+                p."policyType"       AS policy_type,  
+                p."createdAt"        AS policy_created_at,  
+                p."effectiveDate"    AS effective_date,  
+                p."expiryDate"       AS expiryDate,  
+                p."cancellationDate" AS cancellation_date,  
+                p.status             AS status,  
+                p."commissionRate"   AS commisssion_rate,  
+                a.state              AS state,  
+                p."licenseName"      AS license_name,  
+                p."policyType"       AS policy_type,  
+                p."saleType"         AS sale_type  
+FROM "PolicyTransaction" pt  
+         LEFT JOIN "Policy" p ON pt."policyId" = p.id  
+         LEFT JOIN (SELECT DISTINCT ON ("businessId") *  
+                    FROM "BusinessLocation"  
+                    ORDER BY "businessId", "createdAt" DESC) bl ON p."businessId" = bl."businessId"  
+         LEFT JOIN "Address" a ON bl.id = a."businessLocationId" AND a.type = 'location'  
+WHERE p."createdAt" >= DATE '2023-01-01'  
+  AND p."createdAt" < DATE '2025-06-01';
+```
 
+Policy Transaction info dump
+```
+SELECT DISTINCT pt.id                AS transaction_id,  
+                pt.amount            AS amount,  
+                pt.direction         AS direction,  
+                pt."createdAt"       AS transaction_created_at,  
+                pt."transactionType" AS transaction_type,  
+                pt."totalAmount"     AS total_amount,  
+                p.id                 AS policy_id,  
+                p."externalPolicyId" AS external_policy_id,  
+                p.premium            AS premium,  
+                p."carrierId"        AS carrier_id,  
+                p."policyType"       AS policy_type,  
+                p."createdAt"        AS policy_created_at,  
+                p."effectiveDate"    AS effective_date,  
+                p."expiryDate"       AS expiryDate,  
+                p."cancellationDate" AS cancellation_date,  
+                p.status             AS status,  
+                p."commissionRate"   AS commisssion_rate,  
+                a.state              AS state,  
+                p."licenseName"      AS license_name,  
+                p."policyType"       AS policy_type  
+FROM "PolicyTransaction" pt  
+         LEFT JOIN "Policy" p ON pt."policyId" = p.id  
+         LEFT JOIN (SELECT DISTINCT ON ("businessId") *  
+                    FROM "BusinessLocation"  
+                    ORDER BY "businessId", "createdAt" DESC) bl ON p."businessId" = bl."businessId"  
+         LEFT JOIN "Address" a ON bl.id = a."businessLocationId" AND a.type = 'location'  
+WHERE p."createdAt" >= DATE '2023-01-01'  
+  AND p."createdAt" < DATE '2025-06-01';
+```
+
+To add a new employee to growth campaigns
+```
+WITH cnts AS (SELECT "CampaignEmployeeDetails"."campaignStatusId", COUNT(*) AS cnt FROM "CampaignEmployeeDetails" GROUP BY "campaignStatusId")  
+  
+INSERT INTO "CampaignEmployeeDetails" (id, "employeeContactInformationId", "campaignStatusId")  
+SELECT  
+  gen_random_uuid(),  
+  60,  
+  campaignId  
+FROM (SELECT "campaignStatusId" FROM cnts WHERE cnt > 2) AS campaignIds(campaignId)
+```
+
+To add a new campaign for all employees in growth (add to list of employees as necessary)
+```
+INSERT INTO "CampaignEmployeeDetails" (id, employeeContactInformationId, campaignStatusId)
+SELECT
+  gen_random_uuid(),
+  employee_id,
+  'your-new-campaign-status-id-here'
+FROM (
+  VALUES
+    (51),
+    (54),
+    (15),
+    (55),
+    (9),
+    (39),
+    (34),
+    (23),
+    (49),
+    (46),
+    (20),
+    (41)
+) AS employee_ids(employee_id);
+```
 
 Get the total revenue per state for 2024 (imperfect because `Address.state` isn't perfect)
 
@@ -55,7 +154,7 @@ GROUP BY
   b."soldBy";
 ```
 
-To get approx and exact info on company revenue
+To get approx (only premium-based) OR exact info on company revenue
 ```
 SELECT  
     DATE_TRUNC('month', p."createdAt") AS month,  
@@ -66,8 +165,11 @@ FROM
 WHERE  
     p."createdAt" >= NOW() - INTERVAL '12 months'  
 GROUP BY  
-    monthORDER BY  
+    month
+ORDER BY  
     month ASC;  
+
+//----
   
 SELECT  
     DATE_TRUNC('month', pt."createdAt") AS month,  
@@ -83,6 +185,7 @@ FROM
 WHERE  
     pt."createdAt" >= NOW() - INTERVAL '12 months'  
 GROUP BY  
-    monthORDER BY  
+    month
+ORDER BY  
     month;
 ```
