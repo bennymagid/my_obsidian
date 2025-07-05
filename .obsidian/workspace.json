@@ -57,8 +57,8 @@
               "state": {
                 "file": "Excalidraw/🎤 Rap Life Cycle Overview.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "🎤 Rap Life Cycle Overview"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -69,8 +69,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2025-06-16 15.32.18.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-16 15.32.18.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful SQL Queries.md",
+                "file": "Dailies/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful SQL Queries"
+              "title": "2025-07-03"
             }
           }
         ],
@@ -119,6 +119,16 @@
             }
           },
           {
+            "id": "d03e9f8144144004",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
             "id": "fd1da80897fd7281",
             "type": "leaf",
             "state": {
@@ -130,19 +140,9 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "d03e9f8144144004",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -183,20 +183,6 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks for 2025-05-27"
-            }
-          },
-          {
-            "id": "3e83dd77c1421ab1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Dailies/2025-05-27.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 2025-05-27"
             }
           },
           {
@@ -245,26 +231,66 @@
       "command-palette:Open command palette": true,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": true
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
+  },
+  "floating": {
+    "id": "baa621e525cb58d8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7aef142ddcbeff3a",
+        "type": "window",
+        "children": [
+          {
+            "id": "1bfc9bf3ad89d169",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3e83dd77c1421ab1",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Dailies/2025-07-03.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-07-03"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1456,
+        "y": 176,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "555346d517364097",
   "lastOpenFiles": [
     "Dailies/2025-05-27.md",
+    "Dailies/2025-07-03.md",
+    "Dailies/2025-05-14.md",
     "Dailies/2025-05-19.md",
+    "🤠 Local Frontend Testing procedure.md",
+    "Useful SQL Queries.md",
     "CI -CD/👕 Linter.md",
     "CNA Naics mappings.md",
-    "Useful SQL Queries.md",
     "Investigation/(CNA) Need from Avery.md",
     "Investigation/Bind Denial Investigation.md",
     "Dailies/2025-02-24.md",
-    "Dailies/2025-05-14.md",
     "Excalidraw/Drawing 2025-06-16 15.32.18.excalidraw.md",
     "Self-Review 2025.md",
     "Excalidraw/🎤 Rap Life Cycle Overview.md",
     "Excalidraw/🎤 Rap Life Cycle Overview 1.md",
     "Excalidraw/Drawing 2025-06-16 15.25.25.excalidraw.md",
-    "🤠 Local Frontend Testing procedure.md",
     "Untitled.md",
     "Dailies/2025-05-07.md",
     "Interview Notes/David Interview.md",
@@ -275,7 +301,6 @@
     "CI -CD/🔑 User Auth.md",
     "Dailies/2025-04-30.md",
     "Dailies/2025-04-11 (90 day performance review).md",
-    "Dailies/2025-04-29.md",
     "Interview Notes",
     "Investigation",
     "Untitled.canvas",

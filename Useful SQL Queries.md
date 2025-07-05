@@ -1,3 +1,34 @@
+Proportion of Bound premium per carrier per month
+```
+WITH monthly_totals AS (  
+  SELECT  
+    DATE_TRUNC('month', "createdAt") AS month,  
+    SUM(premium) AS total_premium  
+  FROM "Policy"  
+  WHERE status = 'BOUND'  
+  GROUP BY month  
+),  
+carrier_monthly AS (  
+  SELECT  
+    "carrierId",  
+    DATE_TRUNC('month', "createdAt") AS month,  
+    SUM(premium) AS carrier_premium  
+  FROM "Policy"  
+  WHERE status = 'BOUND'  
+  GROUP BY month, "carrierId"  
+)  
+SELECT  
+  cm."carrierId",  
+  cm.month,  
+  cm.carrier_premium,  
+  mt.total_premium,  
+  CAST((cm.carrier_premium / mt.total_premium * 100) * 100 AS INTEGER) / 100.0 AS percentage_of_month,  
+  CAST((cm.carrier_premium / mt.total_premium) * 10000 AS INTEGER) / 10000.0 AS proportion_of_month  
+FROM carrier_monthly cm  
+JOIN monthly_totals mt ON cm.month = mt.month  
+ORDER BY cm.month, cm."carrierId";
+```
+
 CYBER conversion rate 
 ```
 SELECT DISTINCT pt.id                AS transaction_id,  
