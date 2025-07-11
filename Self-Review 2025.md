@@ -1,5 +1,9 @@
   **Do you feel like you met your 2025 goals so far? Why or why not?**
 
+![[Technical Employee Performance Review - Google Forms.pdf]]
+
+![[[MANAGER VERSION] Technical Team Performance Review - Google Forms.pdf]]
+
   Absolutely exceeded my 2025 goals through exceptional productivity and impact:
 
   Quantitative Achievement:

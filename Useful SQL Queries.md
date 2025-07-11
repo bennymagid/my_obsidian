@@ -83,7 +83,7 @@ SELECT DISTINCT pt.id                AS transaction_id,
                 p."commissionRate"   AS commisssion_rate,  
                 a.state              AS state,  
                 p."licenseName"      AS license_name,  
-                p."policyType"       AS policy_type  
+                p."saleType"         AS sale_type  
 FROM "PolicyTransaction" pt  
          LEFT JOIN "Policy" p ON pt."policyId" = p.id  
          LEFT JOIN (SELECT DISTINCT ON ("businessId") *  
@@ -91,7 +91,7 @@ FROM "PolicyTransaction" pt
                     ORDER BY "businessId", "createdAt" DESC) bl ON p."businessId" = bl."businessId"  
          LEFT JOIN "Address" a ON bl.id = a."businessLocationId" AND a.type = 'location'  
 WHERE p."createdAt" >= DATE '2023-01-01'  
-  AND p."createdAt" < DATE '2025-06-01';
+  AND p."createdAt" < DATE '2025-07-01';
 ```
 
 To add a new employee to growth campaigns
