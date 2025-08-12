@@ -1,3 +1,12 @@
+To ensure correct distribution of campaigns per employee / account executive team type:
+```
+SELECT e.name, e."employeeType", e.team, cs."partnerId",  COUNT(c."campaignStatusId") from "EmployeeContactInformation" e  
+    JOIN "CampaignEmployeeDetails" c ON e.id = c."employeeContactInformationId"  
+                                                                      JOIN "CampaignStatus" cs on c."campaignStatusId" = cs.id  
+WHERE e."employeeType" = 'Account Executive'  
+GROUP BY e.name, e."employeeType", e.team, cs."partnerId"
+```
+
 Proportion of Bound premium per carrier per month
 ```
 WITH monthly_totals AS (  
