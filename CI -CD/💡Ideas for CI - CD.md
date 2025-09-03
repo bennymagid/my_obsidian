@@ -1,3 +1,4 @@
+#cicd
 - [ ] PostMan Testing Suite [[🍬 Testing Suite]]
 - [ ] Linter(!) [[👕 Linter]]
 - [x] User Auth [[🔑 User Auth]]

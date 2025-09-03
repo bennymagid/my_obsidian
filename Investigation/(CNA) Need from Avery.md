@@ -1,3 +1,4 @@
+#cna 
  ## GENERAL_LIABILITY ##
 This GL Policy was bound (mistakenly BOP from the POV of CNA): **`43ace202-5445-4789-a751-937bc402fc57`**
 here's one that was GL: `3b47f267-c2d2-453e-9214-7854c5a6b5c8`

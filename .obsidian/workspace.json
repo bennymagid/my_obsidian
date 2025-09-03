@@ -41,12 +41,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI -CD/❌ Error-Handling.md",
+                "file": "Investigation/(CNA) Need from Avery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "❌ Error-Handling"
+              "title": "(CNA) Need from Avery"
+            }
+          },
+          {
+            "id": "8baa272cd03e7de5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -116,7 +126,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "format",
+                "query": "instant",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,7 +230,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -262,7 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,8 +287,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cb91bb907d14261b",
+  "active": "8baa272cd03e7de5",
   "lastOpenFiles": [
+    "Dailies/2025-08-12.md",
+    "Dailies/Daily Notes Template.md",
+    "Useful SQL Queries.md",
+    "Dailies/2025-08-08.md",
+    "Dailies/2025-08-18.md",
+    "🤠 Local Frontend Testing procedure.md",
+    "Investigation/Bean Usage Investigation/Bean Usage Investigation Crud.md",
+    "Investigation/Bean Usage Investigation/Bean Usage Investigation.md",
+    "Investigation/Bean Usage Investigation",
+    "Investigation/(CNA) Need from Avery.md",
+    "Self Review/Technical Employee Performance Review - Google Forms.pdf",
+    "Self Review/Self-Review 2025.md",
+    "Self Review/📚 Brag Book.md",
+    "Self Review/[MANAGER VERSION] Technical Team Performance Review - Google Forms.pdf",
+    "Notes on Systems/🚀 Release Process SotA.md",
+    "Notes on Systems/🎬 How to Onboard new AEs.md",
+    "Notes on Systems/🎤 RAP notes.md",
+    "Investigation/Quote Denial Investigation.md",
+    "Investigation/Bind Denial Investigation.md",
+    "CI -CD/❌ Error-Handling.md",
+    "CI -CD/🍬 Testing Suite.md",
     "CI -CD/🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok.md",
     "CI -CD/👕 Linter.md",
     "CI -CD/💉 Clazz and Dependency Injection.md",
@@ -287,27 +318,7 @@
     "CI -CD/🔥 Dependency Hell.md",
     "CI -CD/🗿 Load Balancer.md",
     "CI -CD/🚀 Changes to Release.md",
-    "CI -CD/🛡️ Security.md",
-    "CI -CD/CICD TODOs.md",
-    "CI -CD/Dependency Log.md",
-    "CI -CD/Prehandle.md",
-    "Dailies/2025-08-08.md",
-    "Useful SQL Queries.md",
-    "Dailies/2025-08-06.md",
-    "Dailies/2025-08-05.md",
-    "Dailies/2025-08-04.md",
-    "Dailies/2025-07-16.md",
-    "Excalidraw/🎤 Rap Life Cycle Overview.md",
-    "Self Review/📚 Brag Book.md",
-    "Dailies/2025-07-15.md",
-    "Self Review/Self-Review 2025.md",
-    "Self Review/Technical Employee Performance Review - Google Forms.pdf",
-    "CNA Naics mappings.md",
-    "Insurance Requirement Management Tool.md",
-    "Perry Notes 03-26-2025.md",
     "Self Review",
-    "Self Review/[MANAGER VERSION] Technical Team Performance Review - Google Forms.pdf",
-    "CI -CD/🍬 Testing Suite.md",
     "Interview Notes",
     "Investigation",
     "Untitled.canvas",
@@ -319,7 +330,6 @@
     "images/Screenshot 2025-01-23 at 11.36.05 AM.png",
     "Excalidraw",
     "Templates",
-    "CI -CD",
-    "Notes on Systems"
+    "CI -CD"
   ]
 }

@@ -1,3 +1,4 @@
+#cicd
 [Here](https://medium.com/@AlexanderObregon/enhancing-logging-with-log-and-slf4j-in-spring-boot-applications-f7e70c6e4cc7) is an overview on logging with
 Lombok
 Spring

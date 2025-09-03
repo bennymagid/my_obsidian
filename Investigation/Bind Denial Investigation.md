@@ -1,3 +1,4 @@
+#investigation
 ```
 ```SELECT DISTINCT "Quote"."carrierId" AS cid, MAX(c.name), COUNT(*) FROM "Quote" LEFT JOIN "Carrier" AS c ON  c.id = "Quote"."carrierId" GROUP BY cid
 ```

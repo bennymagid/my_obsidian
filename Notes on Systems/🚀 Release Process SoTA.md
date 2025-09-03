@@ -1,3 +1,4 @@
+#howTo
 See Notion docs for this process up-to-date 
 [here](https://www.notion.so/coverdash/Dev-Team-Best-Practices-1687c7fc5b0d80d495abfe46f8ae45d3)
 

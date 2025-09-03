@@ -1,3 +1,4 @@
+#howTo
 1. Initially, Run the Admin App onboarding tool
 2. To receive Leads:
 	1. Manually add that employee to `AgentOutOfOfficeTable`

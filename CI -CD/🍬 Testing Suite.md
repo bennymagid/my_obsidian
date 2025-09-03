@@ -1,3 +1,4 @@
+#cicd
  Testing Suite (unit, integration) POSTman series of API calls on production push / deploy
 		1. Also clean up PostMan
 			1. Should use environments (UAT, etc.) instead of the same PostMan outlines

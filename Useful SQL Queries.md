@@ -1,3 +1,4 @@
+#sql
 To ensure correct distribution of campaigns per employee / account executive team type:
 ```
 SELECT e.name, e."employeeType", e.team, cs."partnerId",  COUNT(c."campaignStatusId") from "EmployeeContactInformation" e  

@@ -1,3 +1,4 @@
+#cicd
 - Sentry
 	- [x] Configure alerts (hopefully noisier than now) to be in the `#sentry-alerts` channel
 	- [ ] Configure all applications to go to their respective projects (using the DSN)

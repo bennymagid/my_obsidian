@@ -1,6 +1,7 @@
+#howTo
 In `Cursor` navigate to the correct front-end branch in the `admin-dashboard` project.
 
-Must specify which service is local vs remote at the top of the `.env.local-backend` file. Here, we use LAQ, but you'll generally use `localhost:8083` for crud
+Must specify which service is local vs remote at the top of the `.env.local-backend` file. Here, we use LAQ, but you'll generally u[]()se `localhost:8083` for crud
 
 ```
 # -- UAT ENV --

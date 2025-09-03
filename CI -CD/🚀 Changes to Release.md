@@ -1,3 +1,4 @@
+#cicd
 See [[🚀 Release Process SotA]]
 There ought to be some GitLab Action that can automate the process
 

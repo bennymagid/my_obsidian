@@ -13,3 +13,6 @@ Next project - really big and revenue-impacting
 - [x] Confirm he's off monday
 
 Continue to be self-starter - balance rn is perfect between backend standards and keeping pace with new product tickets
+
+
+#dailyNotes

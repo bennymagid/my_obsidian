@@ -1,3 +1,4 @@
+#cicd
 My favorite combination is
 
 - [google-java-format](https://github.com/google/google-java-format) for auto-formatting (prevent bikeshedding about indentation and the like)

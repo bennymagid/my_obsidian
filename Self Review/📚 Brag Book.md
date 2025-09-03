@@ -1,3 +1,4 @@
+#selfReview
 - Improvements to CI/CD
 	- No longer need to manually (and dangerously) [allow AWS connections](https://linear.app/coverdash/issue/WEB-997/fix-having-to-add-a-new-temp-security-rule-to-aws-every-time-i-want-to) to our gitlab instance on every release - automated whitelist -- [[🚀 Changes to Release]]
 	- [Linter](https://www.notion.so/coverdash/How-to-Set-up-Spotless-Palantir-Linter-in-IntelliJ-23b7c7fc5b0d80469685c18a945d528c?source=copy_link) introduced WEB-3175

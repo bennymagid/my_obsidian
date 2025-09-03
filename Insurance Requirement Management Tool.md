@@ -1,3 +1,5 @@
+
+#insurnaceRequirementTool
 Ryan G notes
 Lending partner strangeness - different insurance requirements for diff biz
 We want to handle end to end insurance process for lendistry.
