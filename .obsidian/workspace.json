@@ -53,10 +53,28 @@
             "id": "8baa272cd03e7de5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Dailies/2025-09-09.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-09"
+            }
+          },
+          {
+            "id": "921f78991119afea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dailies/2025-09-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-16"
             }
           },
           {
@@ -126,7 +144,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -276,6 +294,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
@@ -287,8 +306,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8baa272cd03e7de5",
+  "active": "921f78991119afea",
   "lastOpenFiles": [
+    "Dailies/2025-09-09.md",
+    "Dailies/2025-09-16.md",
+    "Investigation/Thoughts on AI in interview.md",
+    "CI -CD/CICD TODOs.md",
+    "Dailies/2025-01-15.md",
     "Dailies/2025-08-12.md",
     "Dailies/Daily Notes Template.md",
     "Useful SQL Queries.md",
@@ -313,11 +337,6 @@
     "CI -CD/🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok.md",
     "CI -CD/👕 Linter.md",
     "CI -CD/💉 Clazz and Dependency Injection.md",
-    "CI -CD/💡Ideas for CI - CD.md",
-    "CI -CD/🔑 User Auth.md",
-    "CI -CD/🔥 Dependency Hell.md",
-    "CI -CD/🗿 Load Balancer.md",
-    "CI -CD/🚀 Changes to Release.md",
     "Self Review",
     "Interview Notes",
     "Investigation",
