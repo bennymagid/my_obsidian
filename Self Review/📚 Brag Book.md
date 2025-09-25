@@ -1,9 +1,12 @@
 #selfReview
+- Desgined and implemented a javascript playwright script taht navigates carrier login pages to download relevant customer documents after a policy is bound. 
 - Improvements to CI/CD
 	- No longer need to manually (and dangerously) [allow AWS connections](https://linear.app/coverdash/issue/WEB-997/fix-having-to-add-a-new-temp-security-rule-to-aws-every-time-i-want-to) to our gitlab instance on every release - automated whitelist -- [[🚀 Changes to Release]]
 	- [Linter](https://www.notion.so/coverdash/How-to-Set-up-Spotless-Palantir-Linter-in-IntelliJ-23b7c7fc5b0d80469685c18a945d528c?source=copy_link) introduced WEB-3175
 	- Release Notes automated with squashing and tagging automation (see below info)
-- - Presented CNA itnegration [here](https://docs.google.com/presentation/d/1k6I76hS72zeeWrejvt7lrzy6Gqw7UM_gnG_5T806_jg/edit)
+	- Automated deployments
+	- Consolidated Ci components library in gitlab
+- Presented CNA integration carrier integration [here](https://docs.google.com/presentation/d/1k6I76hS72zeeWrejvt7lrzy6Gqw7UM_gnG_5T806_jg/edit)
 - Introduced better practices with [[🏴󠁧󠁢󠁳󠁣󠁴󠁿 Lombok]] to save boilerplate
 - Introduced PreHandle usage for more reusable and safer user validation
 - Introduced a unified AWS Uploader that will hopefully reduce repeated (and unchecked) code interfacing with S3
